@@ -21,7 +21,7 @@ header img
 {
     width: 200px;
     height: auto;
-    filter: drop-shadow(0px 0px 2px #FFFFFF);
+    filter: drop-shadow(0px 0px 1px #ffffff);
 }
 
 header .header_bar
@@ -37,6 +37,32 @@ header nav a
     filter: drop-shadow(1px 1px 2px black);
     font-size: 1.5rem;
     z-index: 1;
+    position: relative;
+}
+
+header nav a:before
+{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+header nav a:hover:before
+{
+    visibility: visible;
+    width: 100%;
+}
+
+header .header_bar a:hover
+{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .langage
@@ -73,24 +99,28 @@ header nav a
     height: 100vh;
     top: 0;
     margin-left: 25%;
-    font-size: 40px;
+    font-size: 60px;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    text-shadow: 3px 3px 3px black;
+    font-weight: lighter;
 }
 
 .button_box
 {
     border: 8px solid #199688;
     border-radius: 32px;
+    box-shadow: 1.5px 2px 8px black;
     padding: 10px 30px 10px 30px;
     background-color: #e4e2e2;
     font-size: 19.2px;
     color: #000;
-    text-shadow: 1px 1px 1px #6a6565;
+    font-weight: 500;
+    text-shadow: none;
 }
 
 header figcaption 
@@ -113,11 +143,6 @@ header figcaption p
     filter: drop-shadow(1px 1px 2px black);
 }
 
-.nav_bar_scrool
-{
-    position: static;
-}
-
 /* ---------- Fin Menu ---------- */
 
 /* ---------- Barre Menu ---------- */
@@ -137,6 +162,28 @@ header .header_bar_scroll a
 {
     color: black;
     filter: drop-shadow(1px 1px 2px #FFFFFF);
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+}
+
+header .header_bar_scroll a:before
+{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+header .header_bar_scroll a:hover:before
+{
+    visibility: visible;
+    width: 100%;
 }
 
 header .header_bar_scroll figcaption
@@ -150,7 +197,7 @@ header .header_bar_scroll figcaption h3
 {
     font-size: 2rem;
     color: black;
-    filter: drop-shadow(1px 1px 2px #FFFFFF);
+    filter: none;
 }
 
 header .header_bar_scroll figure
@@ -188,6 +235,12 @@ header .header_bar_scroll_responsive
     display: none;
 }
 
+header .header_bar_scroll_responsive h3
+{
+    color: black;
+    filter: none;
+}
+
 .fas_fa_bars
 {
     font-size: 5rem;
@@ -198,6 +251,11 @@ header .header_bar_scroll_responsive
 @media screen and (max-width: 999px) 
 {
     /* ---------- header_bar_responsive ---------- */
+    
+    header .header_bar
+    {
+        display: none;
+    }
 
     header .header_bar_responsive
     {
@@ -216,11 +274,6 @@ header .header_bar_scroll_responsive
     {
         margin-left: 200px;
     }
-    
-    header .header_bar
-    {
-        display: none;
-    }
 
     .langage
     {
@@ -231,7 +284,6 @@ header .header_bar_scroll_responsive
     {
         font-size: 3rem;
     }
-
 
     /* ---------- Fin header_bar_responsive ---------- */
 
@@ -270,8 +322,6 @@ header .header_bar_scroll_responsive
 }
 
 /* ---------- Fin Menu responsive ---------- */
-
-/* ------------------------------------------- */
 /* Services */
 .intro {
     height: 260px;
