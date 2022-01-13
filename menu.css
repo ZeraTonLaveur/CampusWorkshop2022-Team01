@@ -449,11 +449,11 @@ header .header_bar_scroll_responsive
     padding-right:100px;
    
 }
+
 .p1, .p2
 {   color: rgb(0, 0, 0);
     font-size: 1.6rem;
 }
-
 
 .team
 {
@@ -475,7 +475,6 @@ header .header_bar_scroll_responsive
 
 }
 
-
 .team1,.team2{
     display: flex;
     justify-content: space-between;
@@ -486,17 +485,14 @@ header .header_bar_scroll_responsive
 
 }
 
-
 .localisation{
 
     padding-bottom:30%;
     
-
 }
 
 .carte{
-
-
+    
     margin:50px;
     padding-top:100px;
     padding-bottom:100px;
@@ -515,7 +511,6 @@ header .header_bar_scroll_responsive
 
     width:100%;
     
-    
 }
 
 .adresse{
@@ -531,7 +526,6 @@ header .header_bar_scroll_responsive
     flex-direction:row-reverse;
     justify-content: space-between;
 
-   
 }
 
 .image{
@@ -548,24 +542,16 @@ header .header_bar_scroll_responsive
 }
 
 .text{
-
+    
 background-color: white;
 height:10%;
-
-
+    
 }
-
-
 
 .p3{
-
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
-
-
 }
-
-
 .button_contact{
 
     border: 8px solid #199688;
@@ -575,7 +561,6 @@ height:10%;
     font-size: 19.2px;
     color: #000;
     text-shadow: 1px 1px 1px #6a6565;
-    
     
 }
 /* ------------------------------------------- */
