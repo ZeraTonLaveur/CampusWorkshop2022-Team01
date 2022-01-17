@@ -322,7 +322,124 @@ header .header_bar_scroll_responsive h3
 }
 
 /* ---------- Fin Menu responsive ---------- */
-/*  */
+
+/* ---------- Début Footer ---------- */
+
+footer .footer_box_1
+{
+    border: 1px solid black;
+    background-color: black;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer .footer_box_1 img
+{
+    width: 150px;
+    height: auto;
+    padding: 10px 30px 10px 30px; 
+}
+
+footer .footer_box_1 .flex_1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+
+footer .footer_box_2
+{
+    border: 1px solid #EEEDED;
+    background-color: #EEEDED;
+    width: 100%;
+}
+
+footer .footer_box_2 figure
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer_box_2 img
+{
+    width: 200px;
+    height: auto;
+}
+
+footer .footer_box_2 figure h3
+{
+    font-size: 32px;
+}
+
+footer .footer_link
+{
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    flex-wrap: wrap;
+}
+
+footer .footer_link a
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+footer .footer_link a:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+
+footer .footer_box_2
+{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer .footer_box_3
+{
+    width: 100%;
+    background-color: #EEEDED;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+footer .footer_box_3 .icon i
+{
+    font-size: 40px;
+}
+
+@media screen and (max-width: 999px) 
+{
+    footer .footer_box_1 img
+    {
+        width: 120px;
+    }
+    footer .footer_box_1 .flex_1
+    {
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+/* ---------- Fin Menu Footer ---------- */
+
 /* ---------------Accueil----------------- */
 
 .accueil-select {
