@@ -714,32 +714,49 @@ header .header_bar_scroll_responsive h3
 
 .team
 {
-    padding-top:100px;
-    padding-bottom:100px;
-    padding-left:100px;
-    padding-right:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 800px;
+    width: 100%;
     background-color: #EEEDED;
     
 }
 .equipe{
-
+    padding-left: 7.3%;
     font-size: 1.6rem;
 
 }
-
+.info-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
 .team1{
-    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
 }
-
-.team1,.team2{
+.info-black-box {
+    width: 260px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #292727;
+    color: white;
+    padding-left:   5%;
+    
+}
+.team1{
     display: flex;
     justify-content: space-between;
     
 }
-.photo{
-    width: 20%;
-
+.photo {
+     width: 260px;
 }
 
 .localisation{
@@ -749,13 +766,8 @@ header .header_bar_scroll_responsive h3
 }
 
 .carte{
-    
     margin:50px;
-    padding-top:100px;
-    padding-bottom:100px;
-    padding-left:100px;
-    padding-right:100px;
-
+    padding-left: 75px;
 }
 
 .trouver{
@@ -763,16 +775,10 @@ header .header_bar_scroll_responsive h3
     font-size: 1.6rem;
 
 }
-
-.map {
-
-    width:100%;
-    
-}
-
 .adresse{
 
-    margin:10%;
+    height: 638px;
+    margin: 5%;
     padding-top:100px;
     padding-bottom:100px;
     padding-left:100px;
@@ -784,24 +790,31 @@ header .header_bar_scroll_responsive h3
     justify-content: space-between;
 
 }
-
-.image{
-
-    height: 15%;
-    width: 30%;
-}
-
-.building{
-
+iframe {
     max-width: 100%;
+    width: 500px;
     max-height: 100%;
-   
+
+}
+.text-button {
+    max-width: 100%;
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image{
+    max-width: 100%;
+    height: 215px;
 }
 
 .text{
-    
-background-color: white;
-height:10%;
+    text-align: center;
+    background-color: white;
+    height: 215px;
+    margin-left: 0%;
+    width: 355px;
     
 }
 
@@ -809,17 +822,26 @@ height:10%;
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
 }
+.phone{
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+}
 .button_contact{
-
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    width: 220px;
+    height: 100px;
+    text-align: center;
     border: 8px solid #199688;
     border-radius: 32px;
-    padding: 10px 30px 10px 30px;
-    background-color: #e4e2e2;
+    background-color: #c4c4c4;
     font-size: 19.2px;
     color: #000;
     text-shadow: 1px 1px 1px #6a6565;
-    
-}
+}  
+
+/* ------------------------------------------- */
 /* ------------------------------------------- */
 /* -------Contact---------*/
 
