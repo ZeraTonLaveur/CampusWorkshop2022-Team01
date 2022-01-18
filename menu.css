@@ -990,7 +990,6 @@ iframe {
 }  
 
 /* ------------------------------------------- */
-/* ------------------------------------------- */
 /* -------Contact---------*/
 
 .contact-button {
@@ -1050,4 +1049,126 @@ position: absolute;
 padding-left: 38%;
 
 }
+/* ------------------------------------------- */
+/* -------Blog---------*/
+
+.blog1{
+
+    height: 638px;
+    margin: 5%;
+    background-color: #EEEDED;
+    
+}
+
+.blog2{
+
+    height: 638px;
+    margin: 5%;
+    background-color: #EEEDED;
+    
+}
+
+.blog3{
+
+    height: 638px;
+    margin: 5%;
+    background-color: #EEEDED;
+    
+}
+
+.blog4{
+
+    height: 638px;
+    margin: 5%;
+    background-color: #EEEDED;
+    
+}
+
+.blog5{
+
+    height: 638px;
+    margin: 5%;
+    background-color: #EEEDED;
+    
+}
+
+.blog_text{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:5%;
+    padding-top:5%;
+    font-size: 1.6rem;
+    font-weight : lighter;
+}
+
+
+.box_blog img{
+
+    width: 80%;
+    height: 80%;
+    padding-bottom:10%;
+    padding-left: 25%;
+}
+
+.box_blog{
+
+    width: 100%;
+
+}
+
+
+.resume {
+
+font-size: 1.6rem;
+
+}
+
+.article_name{
+
+    color: black;
+    font-weight : lighter;
+    border-bottom: 3px solid #199688;;
+    border-radius:5%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}   
+
+
+/* ------------------------------------------- */
+/* -------Article---------*/
+
+.article_page{
+
+width: 100%;
+height: 1000px;
+
+}
+
+.lorem{
+
+display:flex;
+flex-direction: row;
+margin: 5%;
+
+}
+
+.p_article{
+
+font-size: 2rem;
+background-color: #EEEDED;
+padding: 5% 5% 5% 5%;
+border-bottom:3px dashed #199688;
+    
+}
+.article_blog{
+
+    display:flex;
+    align-items: flex-start;
+
+}
+
 /* ------------------------------------------- */
