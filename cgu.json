@@ -1,0 +1,22 @@
+var id = {
+    "cgu_date" : "00/00/0000",
+    "adresse_site" : "www.digital-consultant.fr",
+
+    "editeur_dev1" : "RAFALES Alexandre, ",
+    "editeur_dev2" : "BELTRIX Romuald, ",
+    "editeur_dev3" : "GUILLOCHON Léo ",
+    "adresse_dev" : " 132 Avenue de Lattre de Tassigny Centre Pierre Cointreau CCI, 49000 Angers",
+    "tel_dev" : "+33 0 00 00 00 00",
+    "mail_dev" : "contact@contact.com",
+    
+    "nom_hebergeur" : "GitHub",
+    "siege_hebergeur" : " San Francisco, Californie, États-Units",
+    "tel_hebergeur" : "00 00 00 00 00",
+    
+    "services_articles" : "services",
+    "serv_site" : "Consulting",
+    
+    "numéro_cnil" : "00000000",
+    "mail_retrataction" : "_______@mail.com",
+    
+};
