@@ -8,6 +8,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById('box_name5fr').textContent = id.box_name5fr;
     document.getElementById('box_name6fr').textContent = id.box_name6fr;
     document.getElementById('box_name7fr').textContent = id.box_name7fr;
+    document.getElementById('portfolio_nom1fr').textContent = id.portfolio_nom1fr;
     document.getElementById('portfolio_desc1fr').textContent = id.portfolio_desc1fr;
     document.getElementById('portfolio_type1fr').textContent = id.portfolio_type1fr;
     document.getElementById('portfolio_lien1fr').textContent = id.portfolio_lien1fr;
