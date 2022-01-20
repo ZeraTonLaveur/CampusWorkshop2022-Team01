@@ -1,9 +1,11 @@
 # Digital-Consultant
 
-Ce readme à pour but d'aiguiller l'utilisateur pour qu'il puisse rajouter dans des variables Json les textes et images qu'il désire.
+Ce readme à pour but d'aiguiller l'utilisateur pour qu'il puisse rajouter dans des variables Json les textes qu'il désire en ce qui concerne les image il faut appeller l'image de la même façon que celle que vous voulez remplacer.
 
 Le fichier json est repartie en plusieur partie qui represente les differents pages du siteweb.
-Certaines id sont tout de meme utilisé pour plusieurs pages c'est le cas des id ("","","","")
+Certaines id sont tout de meme utilisé pour plusieurs pages c'est le cas des id ("box_name","box_desc","blog_resume","blog_article_name")
+
+La plupart des id sont composé de leur nom d'id plus un chiffre et la langue afin de permettre de remplir les éléments similaire et de faire la traduction ( exemple: box_name + 1 + fr = box_name1fr )
 
 
 Partie Index:
