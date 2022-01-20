@@ -804,6 +804,7 @@ footer .footer_box_3 .icon i
 .formulaire-newsletter ::placeholder
 {
     color: black;
+    font-weight: bold;
 }
 
 .ns-but {
@@ -815,7 +816,7 @@ footer .footer_box_3 .icon i
     justify-content: center;
     align-items: center;
     padding-top: 15px;
-    background-color: #e4e2e2;
+    background-color: white;
     font-size: 18px;
     color: #000;
     margin-top: 10%;
