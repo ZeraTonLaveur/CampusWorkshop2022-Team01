@@ -1,33 +1,41 @@
 var id = {
-    // Partie Index (fr/eng/esp)
+// Partie Index (fr/eng/esp)
     "toolsfr" : "Outils",
 
-
+    // Partie portfolio fr
+    // Box1
     "portfolio_nom1fr" : "",
     "portfolio_desc1fr" : "",
     "portfolio_type1fr" : "",
     "portfolio_lien1fr" : "",
+    // Box2
     "portfolio_nom2fr" : "",
     "portfolio_desc2fr" : "",
     "portfolio_type2fr" : "",
     "portfolio_lien2fr" : "",
+    // Box3
     "portfolio_nom3fr" : "",
     "portfolio_desc3fr" : "",
     "portfolio_type3fr" : "",
     "portfolio_lien3fr" : "",
+    // Box4
     "portfolio_nom4fr" : "",
     "portfolio_desc4fr" : "",
     "portfolio_type4fr" : "",
     "portfolio_lien4fr" : "",
+    // Box5
     "portfolio_nom5fr" : "",
     "portfolio_desc5fr" : "",
     "portfolio_type5fr" : "",
     "portfolio_lien5fr" : "",
+    // Box6
     "portfolio_nom6fr" : "",
     "portfolio_desc6fr" : "",
     "portfolio_type6fr" : "",
     "portfolio_lien6fr" : "",
 
+
+    // Newsletter Box fr
     "newsletterfr" : "Inscription à la newsletter",
     "newsletter_mailfr" : "Adresse mail",
     "newsletter_nomfr" : "Nom complet",
@@ -36,32 +44,39 @@ var id = {
 
     "toolseng" : "Feature",
 
-
+    // Partie portfolio eng
+    // Box1    
     "portfolio_nom1eng" : "",
     "portfolio_desc1eng" : "",
     "portfolio_type1eng" : "",
     "portfolio_lien1eng" : "",
+    // Box2
     "portfolio_nom2eng" : "",
     "portfolio_desc2eng" : "",
     "portfolio_type2eng" : "",
     "portfolio_lien2eng" : "",
+    // Box3
     "portfolio_nom3eng" : "",
     "portfolio_desc3eng" : "",
     "portfolio_type3eng" : "",
     "portfolio_lien3eng" : "",
+    // Box4
     "portfolio_nom4eng" : "",
     "portfolio_desc4eng" : "",
     "portfolio_type4eng" : "",
     "portfolio_lien4eng" : "",
+    // Box5
     "portfolio_nom5eng" : "",
     "portfolio_desc5eng" : "",
     "portfolio_type5eng" : "",
     "portfolio_lien5eng" : "",
+    // Box6
     "portfolio_nom6eng" : "",
     "portfolio_desc6eng" : "",
     "portfolio_type6eng" : "",
     "portfolio_lien6eng" : "",
 
+    // Newsletter Box eng
     "newslettereng" : "Newsletter Sign-Up",
     "newsletter_maileng" : "Mail address",
     "newsletter_nomeng" : "Full Name",
@@ -69,38 +84,45 @@ var id = {
 
     "toolsesp" : "Característica",
 
-
+    // Partie portfolio esp
+    // Box1     
     "portfolio_nom1esp" : "",
     "portfolio_desc1esp" : "",
     "portfolio_type1esp" : "",
     "portfolio_lien1esp" : "",
+    // Box2
     "portfolio_nom2esp" : "",
     "portfolio_desc2esp" : "",
     "portfolio_type2esp" : "",
     "portfolio_lien2esp" : "",
+    // Box3
     "portfolio_nom3esp" : "",
     "portfolio_desc3esp" : "",
     "portfolio_type3esp" : "",
     "portfolio_lien3esp" : "",
+    // Box4
     "portfolio_nom4esp" : "",
     "portfolio_desc4esp" : "",
     "portfolio_type4esp" : "",
     "portfolio_lien4esp" : "",
+    // Box5
     "portfolio_nom5esp" : "",
     "portfolio_desc5esp" : "",
     "portfolio_type5esp" : "",
     "portfolio_lien5esp" : "",
+    // Box6
     "portfolio_nom6esp" : "",
     "portfolio_desc6esp" : "",
     "portfolio_type6esp" : "",
     "portfolio_lien6esp" : "",
     
+    // Newsletter Box esp
     "newsletteresp" : "Inscríbase al boletín",
     "newsletter_mailesp" : "Correo electrónico",
     "newsletter_nomesp" : "nombre completo",
     "newsletter_inscriptionesp" : "Inscribirse",
 
-    // Partie Nos services (fr/eng/esp)
+// Partie Nos services (fr/eng/esp)
     "service_introfr" : "Notre offre en 3 étapes",
     "service_phase1fr" :" Phase d'audit",
     "service_phase1txtfr" : "Ici nous recherchons un maximum d'informations sur votre entreprise nous prenons le temps avec vous d'identifier vos difficultés et vos facilités ainsi ainsi que les réalités de gestion courante auxquelles vous êtes confrontées.",
@@ -222,7 +244,76 @@ var id = {
     "adresse_tel" : "(+33) 000 000 000",
 
 
-// Info CGU
+// Partie Article
+"blog_article1fr" : "lorem",
+"blog_article2fr" : "lorem",
+"blog_article3fr" : "lorem",
+"blog_article4fr" : "lorem",
+"blog_article5fr" : "lorem",
+
+"blog_article1eng" : "lorem",
+"blog_article2eng" : "lorem",
+"blog_article3eng" : "lorem",
+"blog_article4eng" : "lorem",
+"blog_article5eng" : "lorem",
+
+"blog_article1esp" : "lorem",
+"blog_article2esp" : "lorem",
+"blog_article3esp" : "lorem",
+"blog_article4esp" : "lorem",
+"blog_article5esp" : "lorem",
+
+
+// Partie blog
+"blog_resume1fr" : "Résumé",
+"blog_article_name1fr" : "Article 1",
+"blog_date1fr" : "Date",
+"blog_resume2fr" : "",
+"blog_article_name2fr" : "",
+"blog_date2fr" : "",
+"blog_resume3fr" : "",
+"blog_article_name3fr" : "",
+"blog_date3fr" : "",
+"blog_resume4fr" : "",
+"blog_article_name4fr" : "",
+"blog_date4fr" : "",
+"blog_resume5fr" : "",
+"blog_article_name5fr" : "",
+"blog_date5fr" : "",
+
+"blog_resume1eng" : "Summary",
+"blog_article_name1eng" : "Article 1",
+"blog_date1eng" : "Date",
+"blog_resume2eng" : "",
+"blog_article_name2eng" : "",
+"blog_date2eng" : "",
+"blog_resume3eng" : "",
+"blog_article_name3eng" : "",
+"blog_date3eng" : "",
+"blog_resume4eng" : "",
+"blog_article_name4eng" : "",
+"blog_date4eng" : "",
+"blog_resume5eng" : "",
+"blog_article_name5eng" : "",
+"blog_date5eng" : "",
+
+"blog_resume1esp" : "Resumen",
+"blog_article_name1esp" : "Artículo 1",
+"blog_date1esp" : "Date",
+"blog_resume2esp" : "",
+"blog_article_name2esp" : "",
+"blog_date2esp" : "",
+"blog_resume3esp" : "",
+"blog_article_name3esp" : "",
+"blog_date3esp" : "",
+"blog_resume4esp" : "",
+"blog_article_name4esp" : "",
+"blog_date4esp" : "",
+"blog_resume5esp" : "",
+"blog_article_name5esp" : "",
+"blog_date5esp" : "",
+
+// Partie Info CGU
     "cgu_date" : "00/00/0000",
     "adresse_site" : "www.digital-consultant.fr",
     "editeur_dev1" : "RAFALES Alexandre, ",
@@ -239,7 +330,7 @@ var id = {
     "numéro_cnil" : "00000000",
     "mail_retrataction" : "retra@mail.com",
 
-// Info MENTIONS LEGALES 
+// Partie Info MENTIONS LEGALES 
     "statut_ml" : "societe",   
     "prefixe_ml" : "SAS",  
     "nom_societe_ml" : "Digital consultant",  
@@ -257,6 +348,8 @@ var id = {
     "webmaster_ml" : "Rafales Alexandre",
     "webmaster_mail" : "webmaster@mail.com",
     "hebergeur_ml" : "Github",
-    "site_ml" : "www.digital-consultant.com"
+    "site_ml" : "www.digital-consultant.com",
+
+
 
 };
