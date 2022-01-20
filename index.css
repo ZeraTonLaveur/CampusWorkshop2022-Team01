@@ -778,6 +778,7 @@ footer .footer_box_3 .icon i
 {
     font-size: 36px;
     font-weight: bold;
+    text-shadow: 5px 5px 5px black;
 }
 
 .formulaire-newsletter
@@ -798,6 +799,11 @@ footer .footer_box_3 .icon i
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0;
+}
+
+.formulaire-newsletter ::placeholder
+{
+    color: black;
 }
 
 .ns-but {

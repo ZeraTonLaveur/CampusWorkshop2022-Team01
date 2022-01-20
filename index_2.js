@@ -4,7 +4,7 @@ const my_text = document.getElementById("my_text");
 const my_name = document.getElementById("my_name");
 const my_link = document.getElementById("my_link");
 
-var mydata =JSON.parse(id);
+// var mydata =JSON.parse(id);
 
 function carousel(value)
 {
@@ -24,49 +24,49 @@ function carousel(value)
     
     if (value == 1)
     {
-        my_img.src="images/logo_accueil.jpg";
+        my_img.src="images/carousel_1.png";
         my_text.innerText=id.box_desc1fr;
         my_name.innerText=id.box_name1fr;
         my_link.href="https://www.youtube.com/";
     }
     else if (value == 2)
     {
-        my_img.src="images/logo_propos.png";
+        my_img.src="images/carousel_2.png";
         my_text.innerText=id.box_desc2fr;
         my_name.innerText=id.box_name2fr;
         my_link.href="https://www.twitch.tv/";
     }
     else if (value == 3)
     {
-        my_img.src="images/logo_contacter.png";
+        my_img.src="images/carousel_1.png";
         my_text.innerText=id.box_desc3fr;
         my_name.innerText=id.box_name3fr;
         my_link.href="https://www.youtube.com/";
     }
     else if (value == 4)
     {
-        my_img.src="images/logo_services.png";
+        my_img.src="images/carousel_2.png";
         my_text.innerText=id.box_desc4fr;
         my_name.innerText=id.box_name4fr;
         my_link.href="https://www.twitch.tv/";
     }
     else if (value == 5)
     {
-        my_img.src="images/logo_accueil.jpg";
+        my_img.src="images/carousel_1.png";
         my_text.innerText=id.box_desc5fr;
         my_name.innerText=id.box_name5fr;
         my_link.href="https://www.youtube.com/";   
     }
     else if (value == 6)
     {
-        my_img.src="images/logo_contacter.png";
+        my_img.src="images/carousel_2.png";
         my_text.innerText=id.box_desc6fr;
         my_name.innerText=id.box_name6fr;
         my_link.href="https://www.twitch.tv/";
     }
     else if (value == 7)
     {
-        my_img.src="images/logo_services.png";
+        my_img.src="images/carousel_1.png";
         my_text.innerText=id.box_desc7fr;
         my_name.innerText=id.box_name7fr;
         my_link.href="https://www.youtube.com/";
