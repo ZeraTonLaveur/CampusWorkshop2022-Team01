@@ -771,7 +771,7 @@ footer .footer_box_3 .icon i
 .input-id
 {
     width: 25%;
-    background-color: #C4C4C4;
+    background-color: white;
 }
 
 .fm-title
@@ -827,11 +827,11 @@ footer .footer_box_3 .icon i
 {
     color: black;
     text-shadow: none;
+    font-weight: bold;
 }
 
 .ns-but:hover a
 {
-    color: black;
     text-decoration: none;
 }
 
