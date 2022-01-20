@@ -4,10 +4,10 @@ var id = {
 
     // Partie portfolio fr
     // Box1
-    "portfolio_nom1fr" : "",
-    "portfolio_desc1fr" : "",
-    "portfolio_type1fr" : "",
-    "portfolio_lien1fr" : "",
+    "portfolio_nom1fr" : "Nom du projet",
+    "portfolio_desc1fr" : "Description du projet",
+    "portfolio_type1fr" : "Type de projet",
+    "portfolio_lien1fr" : "Liens projet",
     // Box2
     "portfolio_nom2fr" : "",
     "portfolio_desc2fr" : "",
@@ -46,10 +46,10 @@ var id = {
 
     // Partie portfolio eng
     // Box1    
-    "portfolio_nom1eng" : "Nom du projet",
-    "portfolio_desc1eng" : "Description du projet",
-    "portfolio_type1eng" : "Type de projet",
-    "portfolio_lien1eng" : "Liens projet",
+    "portfolio_nom1eng" : "",
+    "portfolio_desc1eng" : "",
+    "portfolio_type1eng" : "",
+    "portfolio_lien1eng" : "",
     // Box2
     "portfolio_nom2eng" : "",
     "portfolio_desc2eng" : "",
