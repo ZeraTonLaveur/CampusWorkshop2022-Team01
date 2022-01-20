@@ -703,7 +703,7 @@ footer .footer_box_3 .icon i
     margin-bottom: 25px;
     margin-left: 20px;
     margin-right: 20px;
-    background-color: rgb(245, 245, 245);
+    background-color: #fffdfd;
     box-shadow: 0px 0px 8px black;
     border-radius: 0px 50px 0px 0px;
     opacity: 0;
@@ -717,7 +717,7 @@ footer .footer_box_3 .icon i
     height: 250px;
     width: 400px;
     max-width: 100%;
-    background-color: #fffdfd;
+    background-color: rgb(245, 245, 245);
     filter: drop-shadow(0px 4px 3px grey);
     border-radius: 10%;
 }
