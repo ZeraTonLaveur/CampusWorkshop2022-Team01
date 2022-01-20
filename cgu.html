@@ -14,8 +14,11 @@
     <link rel="icon" type="image/png" href="images/logo_digital_consultant.png" />
     <title>Cgu</title>
 </head>
-    <body>
-    <header>
+    <header>   
+        <nav class="container-fluid header_bar">  
+        </nav>
+        <nav class="container-fluid header_bar_responsive"> 
+        </nav>
         <nav class="container-fluid header_bar_scroll slideBottom">
             <figure>   
             <img src="images/logo_digital_consultant.png" alt="">
@@ -48,7 +51,11 @@
                 <a href="propos.html">À propos</a>
             </div>
         </nav>
+        <div class="back">
+            <i class="fas fa-chevron-circle-up"></i>
+        </div>
     </header>
+    <body>
         <div class="cgu">
             <p class="cgu-titre">CONDITIONS GENERALES D'UTILISATION</p>
             <p class="sous-titre">En vigueur au <span id="cgu_date"></span></p>
@@ -204,10 +211,9 @@
             <div class="footer_box_2">
                     <img src="images/logo_digital_consultant.png">
                 <div class="footer_link">
-                    <p><a href="">Mentions légales</a></p>
-                    <p><a href="">Politique de confidentialité</a></p>
-                    <p><a href="">Politique de cookies</a></p>
-                    <p><a href="">Termes d'utilisation</a></p>
+                    <p><a href="mentions-legales.html">Mentions légales</a></p>
+                    <p><a href="cgu.html#cookies">Politique de cookies</a></p>
+                    <p><a href="cgu.html">Termes d'utilisation</a></p>
                 </div>
             </div>
             <div class="footer_box_3">
@@ -220,7 +226,7 @@
                 </div>
             </div>
         </footer>
-        <script src="index.js"></script>
+        <script src="cgu-mentions.js"></script>
         <script src="cgu.js"></script>
         <script src="propos.json"></script>
     </body>

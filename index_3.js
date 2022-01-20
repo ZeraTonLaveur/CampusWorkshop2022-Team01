@@ -1,4 +1,3 @@
-window.addEventListener("DOMContentLoaded",carousel(1))
 window.addEventListener("DOMContentLoaded", (event) => {
     
     document.getElementById('toolsfr').textContent = id.toolsfr;
@@ -42,8 +41,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     
     
 
-
-    
-    
+     
 });
 
+window.addEventListener("DOMContentLoaded",carousel(1))
