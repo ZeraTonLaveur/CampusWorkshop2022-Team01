@@ -752,8 +752,11 @@ footer .footer_box_3 .icon i
 {
     font-size: 32px;
     font-weight: 400;
-    background-color: #c4c4c4;
     width: 350px;
+}
+.typebg {
+    background-color: #c4c4c4;
+    border-radius: 15px;
 }
 
 .lien 
@@ -804,7 +807,6 @@ footer .footer_box_3 .icon i
 .formulaire-newsletter ::placeholder
 {
     color: black;
-    font-weight: bold;
 }
 
 .ns-but {
@@ -816,7 +818,7 @@ footer .footer_box_3 .icon i
     justify-content: center;
     align-items: center;
     padding-top: 15px;
-    background-color: white;
+    background-color: #e4e2e2;
     font-size: 18px;
     color: #000;
     margin-top: 10%;
