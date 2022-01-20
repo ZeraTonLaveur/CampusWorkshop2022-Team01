@@ -46,10 +46,10 @@ var id = {
 
     // Partie portfolio eng
     // Box1    
-    "portfolio_nom1eng" : "",
-    "portfolio_desc1eng" : "",
-    "portfolio_type1eng" : "",
-    "portfolio_lien1eng" : "",
+    "portfolio_nom1eng" : "Nom du projet",
+    "portfolio_desc1eng" : "Description du projet",
+    "portfolio_type1eng" : "Type de projet",
+    "portfolio_lien1eng" : "Liens projet",
     // Box2
     "portfolio_nom2eng" : "",
     "portfolio_desc2eng" : "",
@@ -86,6 +86,7 @@ var id = {
 
     // Partie portfolio esp
     // Box1     
+    
     "portfolio_nom1esp" : "",
     "portfolio_desc1esp" : "",
     "portfolio_type1esp" : "",
