@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     document.getElementById('box_name8fr').textContent = id.box_name8fr;
     document.getElementById('box_desc8fr').textContent = id.box_desc8fr;
 
-
-    
-    
 });
+
+
+
