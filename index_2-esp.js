@@ -27,48 +27,48 @@ function carousel(value)
         my_img.src="images/carousel_1.png";
         my_text.innerText=id.box_desc1esp;
         my_name.innerText=id.box_name1esp;
-        my_link.href="https://www.youtube.com/";
+        my_link.href="services-esp.html#box1";
     }
     else if (value == 2)
     {
         my_img.src="images/carousel_2.png";
         my_text.innerText=id.box_desc2esp;
         my_name.innerText=id.box_name2esp;
-        my_link.href="https://www.twitch.tv/";
+        my_link.href="services-esp.html#box1";
     }
     else if (value == 3)
     {
         my_img.src="images/carousel_1.png";
         my_text.innerText=id.box_desc3esp;
         my_name.innerText=id.box_name3esp;
-        my_link.href="https://www.youtube.com/";
+        my_link.href="services-esp.html#box2";
     }
     else if (value == 4)
     {
         my_img.src="images/carousel_2.png";
         my_text.innerText=id.box_desc4esp;
         my_name.innerText=id.box_name4esp;
-        my_link.href="https://www.twitch.tv/";
+        my_link.href="services-esp.html#box2";
     }
     else if (value == 5)
     {
         my_img.src="images/carousel_1.png";
         my_text.innerText=id.box_desc5esp;
         my_name.innerText=id.box_name5esp;
-        my_link.href="https://www.youtube.com/";   
+        my_link.href="services-esp.html#box3";   
     }
     else if (value == 6)
     {
         my_img.src="images/carousel_2.png";
         my_text.innerText=id.box_desc6esp;
         my_name.innerText=id.box_name6esp;
-        my_link.href="https://www.twitch.tv/";
+        my_link.href="services-esp.html#box3";
     }
     else if (value == 7)
     {
         my_img.src="images/carousel_1.png";
         my_text.innerText=id.box_desc7esp;
         my_name.innerText=id.box_name7esp;
-        my_link.href="https://www.youtube.com/";
+        my_link.href="services-esp.html#box4";
     }
 }
