@@ -460,6 +460,11 @@ footer .footer_box_3 .icon i
     font-size: 40px;
 }
 
+footer.footer_box_3 .icon a
+{
+    color: black;
+}
+
 @media screen and (max-width: 999px) 
 {
     footer .footer_box_1 img
